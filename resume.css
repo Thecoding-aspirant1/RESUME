@@ -1,0 +1,298 @@
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.container{
+    position: relative;
+    width: 100%;
+    margin: 50px;
+    max-width: 1000px;
+    min-height: 1500px;
+    background-color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+}
+
+.container .left_side{
+    position: relative;
+    background-color: rgb(27, 76, 99);
+    padding: 40px;
+}
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+
+.profileText .imgbox{
+position: static;
+width: 200px;
+height: 200px;
+border-radius: 50%;
+border: 3px solid #72305d;
+overflow: hidden;
+}
+
+.profileText .imgbox img{
+    position: relative;
+    top: 0;
+    left: 0;
+width:100%;
+height: 100%;
+object-fit: cover;
+}
+
+
+.profileText h2{
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 10px;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.profileText h2 span{
+font-size: 0.8em;
+font-weight:400 ;
+
+}
+
+.contactinfo{
+padding-top: 10px;
+}
+
+.title{
+color: #fff;
+text-transform: uppercase;
+font-weight: 00;
+letter-spacing: 1px;
+margin-bottom: 5px;
+font-size: 1.5rem;
+}
+
+.contactinfo ul{
+    position: relative;
+    
+}
+
+.contactinfo ul li{
+list-style: none;
+position: relative;
+margin: 5px 0;
+cursor: pointer;
+}
+
+.contactinfo ul li .icon{
+    display: inline-block;
+    width: 25px;
+    font-size: 18px;
+    color: #03a9f4;
+}
+
+.contactinfo ul li span
+{
+color: #fff;
+font-weight: 300;
+}
+
+.main-title{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 00;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+padding-top: 25px;
+}
+
+.skill-title{
+    text-transform: uppercase;
+    color: #f7f7f7;
+    font-size: 1rem;
+}
+
+.skills-section ul{
+    padding-top: 20px;
+}
+.skills-section ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: .4rem 0;
+}
+
+.progress-bar{
+    width: 100%;
+    height: .4rem;
+    background-color: #030e1b5b;
+    position: relative;
+    border-radius: 12px;
+}
+.progress{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color:#03a9f4;
+    border-radius: 12px;
+}
+.C-progress{
+    width: 70%;
+}
+
+.HTML-progress{
+    width: 90%;
+}
+.css-progress{
+    width: 80%;
+}
+.js-progress{
+    width: 20%;
+}
+.sql-progress{
+    width: 60%;
+}
+.Cplusprogress{
+    width:75%;
+}
+h3:hover {
+    color:#03a9f4;
+    font-size: 25px;
+}
+
+h2:hover {
+    color:#03a9f4;
+    font-size: 25px;
+}
+
+.keyskills{
+    padding-top: 20px;
+}
+.title1{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 00;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+
+}
+.keyskills ul{
+    position: relative;
+}
+.keyskills ul li{
+    position: relative;
+    list-style: circle;
+    padding-top: 10px;
+   color: #fff;
+   list-style: square;
+}
+
+.keyskills ul li span{
+font-size: 1rem;
+color: #fff;
+
+} 
+.hobbies{
+    padding-top: 25px;
+}
+.title2{
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 00;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+.hobbies ul{
+    position: relative;
+}
+
+.hobbies ul li{
+    position: relative;
+    list-style: circle;
+    padding-top: 10px;
+   color: #fff;
+   font-size: 1rem;
+   list-style: square;
+}
+
+
+
+.container .right_side{
+    position: relative;
+    background-color: #fff;
+    padding: 40px;
+}
+.about{
+    margin-bottom: 25px;
+}
+
+.title3{
+    color: #003147;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+}
+p{
+    color: #333;
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+table{
+    width: 100%;
+    border: collapse;
+    border: 1px solid #030e1b5b;
+    margin-top: 20px;
+    
+}
+table,th,td{
+    border: 1px solid;
+    text-align: center;
+    border-collapse: collapse;
+}
+th{
+    color: #003147;
+}
+td{
+    color: #333 ;
+   
+}
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.about .box  .year_company{
+    min-width: 200px;
+    
+}
+.about .box  .year_company h5{
+    text-transform: uppercase;
+    color: #333;
+    font-weight: 600;
+    font-size: 1rem;
+}
+.about .box .text h4{
+    text-transform: uppercase;
+    color:#002333;
+    font-size: 1.2rem;
+}
+
+a {
+    color: #f7f7f7;
+}
